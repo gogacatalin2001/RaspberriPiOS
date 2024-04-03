@@ -1,6 +1,6 @@
 RPI_VERSION ?= 4
 
-BOOTMNT ?= /media/parallels/boot
+BOOTMNT ?= /media/gogacatalin2001/bootfs
 
 ARMGNU ?= aarch64-linux-gnu
 
