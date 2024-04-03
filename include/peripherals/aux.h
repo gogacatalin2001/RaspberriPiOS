@@ -16,9 +16,9 @@ struct AuxRegs {
     reg32 mu_lsr;
     reg32 mu_msr;
     reg32 mu_sccratch;
-    reg32 mu_cntl;
+    reg32 mu_control;
     reg32 mu_stat;
-    reg32 mu_baud;
+    reg32 mu_baud_rate;
 };
 
 #define REGS_AUX ((struct AuxRegs *)(PBASE + 0x00215000))

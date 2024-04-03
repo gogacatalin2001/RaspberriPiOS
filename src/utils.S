@@ -10,5 +10,5 @@ put32:
     ret
 
 .globl get32
-    ldr wo, [x0]
+    ldr w0, [x0]
     ret
