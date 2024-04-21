@@ -7,8 +7,8 @@
 #define RXD 15
 
 void uart_init() {
-    gpio_pin_set_func(TXD, GFAlt5);
-    gpio_pin_set_func(RXD, GFAlt5);
+    gpio_pin_set_func(TXD, GPIO_ALTFN_5);
+    gpio_pin_set_func(RXD, GPIO_ALTFN_5);
 
     gpio_pin_enable(TXD);
     gpio_pin_enable(RXD);
